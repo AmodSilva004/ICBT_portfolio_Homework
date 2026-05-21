@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amod Silva | O/L Teacher — Kalutara</title>
+    <link rel="icon" href="image/amod.jpeg" type="image/jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== TOP NAVIGATION ===== -->
+    <nav class="topnav" id="topnav">
+        <div class="container topnav-inner">
+
+            <!-- Brand -->
+            <a href="#" class="nav-brand">
+                <span class="nav-brand-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                <span class="nav-brand-text">Amod<span class="nav-brand-sep"> · </span>Silva</span>
+            </a>
+
+            <!-- Menu Links (desktop) -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#subjects" class="nav-link">Subjects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+            </ul>
+
+            <!-- Right controls -->
+            <div class="nav-controls">
+
+                <!-- Search -->
+                <div class="nav-search-wrap" id="navSearchWrap">
+                    <div class="nav-search-box">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="searchInput" placeholder="Search…" autocomplete="off" aria-label="Search sections">
+                        <button class="search-clear" id="searchClear" aria-label="Clear"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="search-results" id="searchResults"></div>
+                </div>
+
+                <!-- Login -->
+                <button class="btn-login" id="loginBtn" aria-label="Login">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <span>Login</span>
+                </button>
+
+                <!-- Dark/Light Toggle -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="toggle-track">
+                        <i class="fa-solid fa-sun toggle-icon sun-icon"></i>
+                        <i class="fa-solid fa-moon toggle-icon moon-icon"></i>
+                        <span class="toggle-thumb"></span>
+                    </span>
+                </button>
+
+                <!-- Mobile Hamburger -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span class="burger-bar"></span>
+                    <span class="burger-bar"></span>
+                    <span class="burger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero">
+        <div class="hero-bg-dots"></div>
+        <div class="hero-content">
+
+            <!-- Profile photo -->
+            <div class="profile-ring">
+                <div class="profile-img">
+                    <img src="image/amod.jpeg" alt="Amod Silva" class="profile" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <span class="profile-fallback"><i class="fa-solid fa-user-tie"></i></span>
+                </div>
+                <span class="profile-status"><i class="fa-solid fa-circle-check"></i> Available</span>
+            </div>
+
+            <h1 class="hero-name">Amod Silva</h1>
+            <p class="designation">Teacher for O/L Students</p>
+
+            <!-- Price Badge -->
+            <div class="price-badge">
+                <i class="fa-solid fa-tag"></i>
+                <span>Class Price: <strong>Rs. 1,500/=</strong> per month</span>
+            </div>
+
+            <p class="subjects-line">
+                <span class="subject-pill"><i class="fa-solid fa-square-root-variable"></i> Mathematics</span>
+                <span class="subject-pill"><i class="fa-solid fa-book-open"></i> English</span>
+            </p>
+
+            <p class="hero-location">
+                <i class="fa-solid fa-location-dot"></i> Kalutara, Sri Lanka
+            </p>
+
+            <div class="hero-cta">
+                <a href="#contact" class="btn-primary">Get in Touch</a>
+                <a href="#subjects" class="btn-ghost">View Subjects</a>
+            </div>
+        </div>
+
+        <!-- Decorative wave -->
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="var(--bg-main)"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about"
+        data-search-title="About Me"
+        data-search-text="Amod Silva dedicated passionate teacher Kalutara Ordinary Level O/L Mathematics English confidence results">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm <strong>Amod Silva</strong>, a dedicated and passionate teacher based in <strong>Kalutara</strong>.
+                        I specialize in guiding Ordinary Level (O/L) students through <strong>Mathematics</strong> and <strong>English</strong>.
+                    </p>
+                    <p>
+                        My goal is to make learning simple, engaging, and effective — helping every student build confidence and achieve their very best results.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-num">O/L</span>
+                        <span class="stat-label">Focused</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">2</span>
+                        <span class="stat-label">Subjects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num"><i class="fa-solid fa-star" style="font-size:1.2rem;color:#f59e0b"></i></span>
+                        <span class="stat-label">Top Rated</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SUBJECTS ===== -->
+    <section class="section subjects-section" id="subjects"
+        data-search-title="Subjects"
+        data-search-text="Mathematics Maths English O/L subjects teach problem solving grammar vocabulary literature exam">
+        <div class="container">
+            <h2 class="section-title">Subjects I Teach</h2>
+            <p class="section-sub">Focused O/L preparation with proven methods and exam-ready practice.</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-img-banner">
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&q=80" alt="Mathematics" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="card-icon"><i class="fa-solid fa-square-root-variable"></i></div>
+                    <h3>Mathematics</h3>
+                    <p>Clear explanations, problem-solving techniques, and exam-focused practice for O/L Maths.</p>
+                    <div class="card-price-tag">Rs. 1,500/= <span>/month</span></div>
+                </div>
+                <div class="card">
+                    <div class="card-img-banner">
+                        <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80" alt="English" loading="lazy" onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+                    <h3>English</h3>
+                    <p>Grammar, vocabulary, writing skills, and literature — everything to ace O/L English.</p>
+                    <div class="card-price-tag">Rs. 1,500/= <span>/month</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact"
+        data-search-title="Contact"
+        data-search-text="phone call WhatsApp address Kalutara Sri Lanka 0783612249 reach out get in touch">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">Feel free to reach out! I'm available to help your child succeed.</p>
+            <div class="contact-details">
+                <a href="tel:0783612249" class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">Call Me</span>
+                        <span class="contact-value">0783612249</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right contact-arrow"></i>
+                </a>
+                <a href="https://wa.me/94783612249" target="_blank" rel="noopener noreferrer" class="contact-item whatsapp">
+                    <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">WhatsApp</span>
+                        <span class="contact-value">0783612249</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right contact-arrow"></i>
+                </a>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-map-pin"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">Address</span>
+                        <span class="contact-value">Kalutara, Sri Lanka</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAP SECTION ===== -->
+    <section class="map-section" id="map-section"
+        data-search-title="Location Map"
+        data-search-text="Kalutara map location Sri Lanka directions Google Maps">
+        <div class="container">
+            <h2 class="section-title">Find Me Here</h2>
+            <p class="section-sub" style="text-align:center;color:var(--text-light);margin-bottom:28px;">Based in Kalutara, Sri Lanka — easily reachable by all routes.</p>
+        </div>
+        <div class="map-wrapper">
+            <div class="map-overlay-badge">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Kalutara, Sri Lanka</span>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63464.14220765447!2d79.97413065!3d6.5854448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae22efb45ec0003%3A0x46d2f5cbda1e7ab6!2sKalutara%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                width="100%"
+                height="420"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Kalutara, Sri Lanka map">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Amod Silva — O/L Teacher</span>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms &amp; Conditions</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="footer-copy">&copy; <span id="footerYear">2025</span> Amod Silva. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ===== LOGIN MODAL ===== -->
+    <div class="modal-overlay" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <div class="modal-logo"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h2 id="modalTitle">Welcome Back</h2>
+                <p>Sign in to access your student portal</p>
+            </div>
+            <form class="modal-form" id="loginForm" novalidate>
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <div class="input-wrap">
+                        <i class="fa-solid fa-envelope input-icon"></i>
+                        <input type="email" id="loginEmail" placeholder="your@email.com" autocomplete="email">
+                    </div>
+                    <span class="field-error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <div class="input-wrap">
+                        <i class="fa-solid fa-lock input-icon"></i>
+                        <input type="password" id="loginPassword" placeholder="Enter your password" autocomplete="current-password">
+                        <button type="button" class="pw-toggle" id="pwToggle" aria-label="Show/hide password">
+                            <i class="fa-solid fa-eye" id="pwIcon"></i>
+                        </button>
+                    </div>
+                    <span class="field-error" id="pwError"></span>
+                </div>
+                <div class="form-row">
+                    <label class="check-label">
+                        <input type="checkbox" id="rememberMe"> Remember me
+                    </label>
+                    <a href="#" class="forgot-link">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn-submit" id="loginSubmit">
+                    <span id="loginBtnText">Sign In</span>
+                    <i class="fa-solid fa-spinner fa-spin" id="loginSpinner" style="display:none"></i>
+                </button>
+            </form>
+            <p class="modal-footer-note">
+                New student? <a href="#contact" id="contactFromModal">Contact the teacher</a> to enroll.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
